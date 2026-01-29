@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PowerHome</string>
+    <string name="identifiant">Identifiez-vous</string>
+    <string name="email">E-mail</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="mdp_oublié">MOT DE PASSE OUBLIÉ ?</string>
+    <string name="button_login">CONNECTEZ-VOUS</string>
+    <string name="nouveau">Nouveau sur Jumia? </string>
+    <string name="cree">CRÉÉ UN COMPTE</string>
+    <string name="ou">OU</string>
+    <string name="bouton_facebook">Continuer avec Facebook</string>
+</resources>
