@@ -3,4 +3,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="facebook_blue">#1877F2</color>
+    <color name="rose">#FF00FF</color>
+
 </resources>
