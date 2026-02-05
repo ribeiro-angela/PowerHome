@@ -1,6 +1,9 @@
 package iut.dam.powerhome;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,10 +18,17 @@ public class SpalshActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_spalsh);
+
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
         });
+
+        // ✅ Après 1.5s, on va vers Login
+        new Handler(Looper.getMainLooper()).postDelayed(() -> {
+            startActivity(new Intent(SpalshActivity.this, LoginActivity.class));
+            finish(); // ✅ empêche de revenir au splash avec "retour"
+        }, 1500);
     }
 }
