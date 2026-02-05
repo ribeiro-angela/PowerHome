@@ -8,5 +8,7 @@
     <string name="nouveau">Nouveau sur Jumia? </string>
     <string name="cree">CRÉÉ UN COMPTE</string>
     <string name="ou">OU</string>
+    <string name="title_login">Connectez-vous</string>
+    <string name="back_arrow">←</string>
     <string name="bouton_facebook">Continuer avec Facebook</string>
 </resources>

@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">PowerHome</string>
+    <string name="title_login">Inicia sesión</string>
+    <string name="back_arrow">←</string>
     <string name="identifiant">Inicia sesión</string>
     <string name="email">Correo electrónico</string>
     <string name="mdp">Contraseña</string>
