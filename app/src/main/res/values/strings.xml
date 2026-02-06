@@ -10,5 +10,10 @@
     <string name="ou">OU</string>
     <string name="title_login">Connectez-vous</string>
     <string name="back_arrow">←</string>
+    <string name="title_register">Créer un compte</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prénom</string>
+    <string name="creer_un_nv_compte">Créer un nouveau compte</string>
+
     <string name="bouton_facebook">Continuer avec Facebook</string>
 </resources>
